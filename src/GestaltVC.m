@@ -466,6 +466,7 @@ static NSString *BQValueSummary(id v) {
 - (void)chooseSubtype {
     NSArray *opts = @[
         @{@"title": NSLocalizedString(@"Original", nil), @"value": @0},
+        @{@"title": NSLocalizedString(@"Custom subtype…", nil), @"value": @(-1)},
         @{@"title": @"iPhone 14 Pro (2556)", @"value": @2556},
         @{@"title": @"iPhone 14 Pro Max (2796)", @"value": @2796},
         @{@"title": @"iPhone 15 Pro (2556)", @"value": @2556},
